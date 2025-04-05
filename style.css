@@ -1,0 +1,1590 @@
+/*----------Google Fonts----------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #161618;
+  scroll-behavior: smooth;
+  scroll-margin-top: 120px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  
+}
+
+ body, html {
+  font-family: "Poppins";
+  overflow-x: hidden;  
+}
+
+
+/*--------------Animações-----------------*/
+
+.hidden {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.hidden2 {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.hidden3 {
+  position: relative;
+  opacity: 0;
+  transform: translateY(30%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transition: all 1.3s;
+  transform: translateX(0%);
+}
+
+.show3 {
+  opacity: 1;
+  filter: blur(0px);
+  transition: all 1.3s;
+  transform: translateY(0%);
+}
+
+
+/*-----------------Intro---------------------*/
+
+.copy {
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin: 20px 0px 0px 20px;
+  display: inline-flex;
+}
+
+
+.inicio ul {
+display: flex;
+flex-direction: column;
+margin: auto;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.inicio h1 {
+  font-family: "Poppins";
+  height: 120px;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.inicio h2 {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-size: 40px;
+}
+
+button {
+  padding: 10px 6px;
+  background: transparent;
+  position: relative;
+  margin-top: 20px;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50px;
+  border-radius: 30px;
+  background:  #1d6dd6;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+button:hover::before {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.button-txt {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Poppins";
+  gap: 10px;
+}
+
+/*-----------------------Sobre--------------------*/
+
+.sobre {
+  height: 100%;
+}
+
+.sobre-title {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 300px;
+  gap: 200px;
+}
+
+.sobre h1 {
+  font-size: 25px;
+  font-weight: 400;
+
+}
+
+.sobre p {
+  font-size: 14px;
+}
+
+.line {
+border: solid 0.5px rgba(0, 0, 0, 0.575);
+margin: 60px 300px 0px 300px;
+} 
+
+/*------------------Projetos----------------*/
+
+
+.projetos {
+  padding: 0px 80px;
+  height: 100%;
+  font-size: 80px;
+}
+
+.right {
+  display: flex;
+  border: solid 1px rgb(167, 167, 167);
+  max-width: 1000px;
+  border-radius: 200px;
+  font-weight: 300;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.left {
+  display: flex;
+  border: solid 1px rgb(167, 167, 167);
+  max-width: 1000px;
+  border-radius: 200px;
+  font-weight: 300;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.projeto {
+  position: relative;
+  overflow: hidden;
+}
+
+.projeto span, .bx-link-external {
+  margin: 20px 30px;
+}
+
+.projeto::after {
+    content: ''; 
+    position: absolute;
+    width: 0%; /* Começa sem largura */
+    height: 100%; /* Mantém a altura correta */
+    background-color: #1d6dd6; 
+    border-radius: 200px;
+    transform-origin: left; 
+    transition: width 0.5s ease-in-out; 
+    z-index: -1;
+}
+
+.projeto:hover::after {
+  width: 100%;
+}
+
+
+
+/*----------Frase de Impacto----------*/
+
+.frasedeimpacto {
+  height: 100%;
+}
+
+.frasedeimpacto h1{
+  font-size: 140px;
+  font-weight: 300;
+  margin-top: 60px;
+  white-space: nowrap;
+  animation: carrosel 8s linear infinite; 
+  }
+
+  @keyframes carrosel {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+
+  /*----------------------Contact---------------------*/
+
+.contact {
+  background-color: #1b1b1d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+}
+
+
+.contact-title h1{
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-weight: 600;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  width: 900px;
+  white-space: nowrap;
+}
+
+.contact-title h1:nth-child(2) {
+  margin-left: 0px;
+  height: 80px;
+  color: #1d6dd6;
+}
+
+
+.contact-title img {
+width: 220px;
+height: 100%;
+}
+
+
+.hardskills-circle {
+  width: 220px;
+  height: 220px;
+  background-color: #1d6dd6;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  font-size: 23px;
+  color: white;
+  box-shadow: 0px 0px 36px -16px white;
+  position: relative;
+  overflow: hidden;
+  animation: pulse 3s ease-in-out infinite; 
+  margin-right: 10px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.1); 
+  }
+  100% {
+    transform: scale(1); 
+  }
+}
+
+.hardskills-circle::after {
+  content: ''; /* Criação da camada de fundo */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #154c94; 
+  border-radius: 50%;
+  transform: scale(0); 
+  transform-origin: center; 
+  transition: transform 0.5s ease-in-out; 
+  z-index: -1;
+}
+
+.hardskills-circle:hover::after {
+  transform: scale(1); 
+}
+
+.hardskills-circle:hover {
+  cursor: pointer;
+}
+
+.hardskills-circle span {
+  font-size: 30px;
+  color: white;
+}
+
+
+/*------------------------Footer---------------------------*/
+
+.footer-container {
+  display: flex;
+  align-items: center; 
+  background: #161618;
+  padding: 20px 20px;
+  justify-content: space-between;
+}
+
+.logo h2{
+ width: 400px;
+ color: white;
+}
+
+.logo span {
+    color: #1d6dd6;
+}
+
+.navbar {
+  display: flex;
+  gap: 2px;
+  font-size: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.navbar ul > li {
+  text-align: center;
+}
+
+.navbar a:hover {
+color: #1d6dd6;
+}
+
+.social {
+  display: flex;
+  gap: 2px;
+  font-size: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.footer-container a, .bxs {
+  color: white;
+}
+
+.social .bx {
+  font-size: 25px;
+  justify-content: center;
+}
+
+.bxs:hover {
+ color: #1d6dd6;
+}
+
+/* ---------------------Estilo do fundo do loader------------------------- */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white; /* Ou outra cor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+/* ----------------Esconder o loader quando a página estiver carregada-------------- */
+#loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Loader do Uiverse.io */
+.spinner {
+  width: 80px;
+  height: 80px;
+  --clr: rgb(127, 207, 255);
+  --clr-alpha: rgb(127, 207, 255, .1);
+  animation: spinner 2s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.spinner > div {
+  background-color: var(--clr-alpha);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border: 5px solid var(--clr);
+}
+
+.spinner div:nth-of-type(1) { transform: translateZ(-40px) rotateY(180deg); }
+.spinner div:nth-of-type(2) { transform: rotateY(-270deg) translateX(50%); transform-origin: top right; }
+.spinner div:nth-of-type(3) { transform: rotateY(270deg) translateX(-50%); transform-origin: center left; }
+.spinner div:nth-of-type(4) { transform: rotateX(90deg) translateY(-50%); transform-origin: top center; }
+.spinner div:nth-of-type(5) { transform: rotateX(-90deg) translateY(50%); transform-origin: bottom center; }
+.spinner div:nth-of-type(6) { transform: translateZ(40px); }
+
+@keyframes spinner {
+  0% { transform: rotate(0deg) rotateX(0deg) rotateY(0deg); }
+  50% { transform: rotate(180deg) rotateX(180deg) rotateY(180deg); }
+  100% { transform: rotate(360deg) rotateX(360deg) rotateY(360deg); }
+}
+
+/*Responsividade*/
+
+/*1632x872*/
+
+@media screen and (max-width: 1570px) {
+
+  /*-----Inicio-----*/
+
+  .inicio h1 {
+    font-size: 80px;
+  }
+
+  .inicio h2 {
+    font-size: 30px;
+  }
+
+  /*-----Sobre-----*/
+
+  .sobre-title {
+    gap: 120px;
+  }
+
+  .sobre-title h1 {
+    font-size: 20px;
+  }
+
+  .sobre-title p {
+    font-size: 12px;
+  }
+
+  .frasedeimpacto h1 {
+    font-size: 115px;
+  }
+
+  /*-----Projetos-----*/
+
+  .projetos {
+    font-size: 70px;
+  }
+}
+
+
+@media screen and (max-width: 1390px) {
+  .right {
+    max-width: 800px;
+  }
+
+  .left {
+    max-width: 800px;
+  }
+
+   /*-----Sobre-----*/
+
+
+  .sobre-title h1 {
+    font-weight: 500;
+  }
+
+}
+
+/*-----Contact-----*/
+
+.contact-title h1 {
+  font-size: 75px;
+  width: 670px;
+}
+
+.hardskills-circle {
+  width: 180px;
+  height: 180px;
+}
+
+
+@media screen and (max-width: 1320px) {
+
+
+  /*-----Sobre-----*/
+
+  .sobre-title  {
+    gap: 130px;
+    margin: 0px 250px;
+  }
+
+  .sobre-title h1 {
+    font-size: 18px;
+  }
+
+  .sobre-title h2 {
+    font-size: 10px;
+  }
+
+  .frasedeimpacto h1 {
+    font-size: 105px;
+  }
+
+  /*-----Projetos-----*/
+
+  .projetos {
+    font-size: 60px;
+  }
+
+  .line {
+    margin: 60px 190px 0px 190px;
+  }
+
+ 
+
+}
+
+@media screen and (max-width: 1190px) {
+
+  /*-----Sobre-----*/
+
+  .sobre-title {
+    gap: 70px;
+  }
+
+.sobre-title h1{
+font-size: 15px;
+}
+
+.sobre-title h2 {
+  font-size: 9px;
+}
+
+/*-----Contact-----*/
+
+  .contact-title h1 {
+    font-size: 75px;
+    width: 670px;
+  }
+
+  .hardskills-circle {
+    width: 180px;
+    height: 180px;
+  }
+
+  /*-----Projetos-----*/
+
+  .projetos {
+    font-size: 50px;
+  }
+
+  .right {
+    max-width: 700px;
+  }
+
+  .left {
+    max-width: 700px;
+  }
+
+
+  /*-----Frase de impacto-----*/
+
+  .frasedeimpacto h1{
+    font-size: 85px;
+  }
+
+  /*-----Footer-----*/
+
+  .logo h2 {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .projetos {
+    font-size: 40px;
+  }
+
+  .right {
+    max-width: 600px;
+  }
+
+  .left {
+    max-width: 600px;
+  }
+
+}
+
+@media screen and (max-width: 1020px) {
+  button {
+    padding: 10px 6px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 50px;
+    height: 100%;
+  }
+  
+  /*-----Sobre-----*/
+
+  .sobre-title {
+    gap: 100px;
+    margin: 0px 220px;
+  }
+
+.sobre-title h1{
+font-size: 13px;
+font-weight: 600;
+}
+
+.sobre-title h2 {
+  font-size: 1px;
+}
+
+.line {
+  margin: 60px 100px 0px 100px;
+}
+
+/*-----Projetos-----*/
+
+.projetos {
+  font-size: 45px;
+}
+
+.right {
+  max-width: 600px;
+  margin: 20px auto;
+  
+}
+
+.left {
+  max-width: 600px;
+  margin: auto;
+}
+
+/*-----frasde de impacto-----*/
+
+.frasedeimpacto h1 {
+  font-size: 75px;
+}
+
+ /*-----Footer-----*/
+
+ .logo h2 {
+  width: 310px;
+}
+}
+
+@media screen and (max-width: 963px) {
+  
+  button {
+    padding: 10px 6px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 50px;
+    height: 100%;
+  }
+  /*-----Sobre-----*/
+
+  .sobre-title {
+    gap: 70px;
+    margin: 0px 180px;
+  }
+
+  
+  .projetos {
+    font-size: 45px;
+  }
+
+  .right {
+    max-width: 600px;
+    margin: 20px auto;
+    
+  }
+
+  .left {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  /*Frase de impacto*/
+
+  .frasedeimpacto h1 {
+    font-size: 75px;
+    margin-top: 20px;
+  }
+
+  /*-----Contact-----*/
+
+  .contact {
+    height: 370px;
+  }
+
+
+  .contact-title h1 {
+    font-size: 65px;
+    width: 590px;
+  }
+
+  .hardskills-circle {
+    width: 170px;
+    height: 170px;
+  }
+
+  .logo h2 {
+    width: 285px;
+    font-size: 20px;
+  }
+
+  .hardskills-circle span {
+    font-size: 25px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 840px) {
+    /*-----Inicio-----*/
+
+    .inicio h1 {
+      font-size: 60px;
+      height: 90px;
+    }
+  
+    .inicio h2 {
+      font-size: 20px;
+    }
+
+    button {
+      padding: 10px 7px;
+    }
+  
+    button::before {
+      border-radius: 30px;
+      width: 43px;
+      height: 100%;
+    }
+
+    .button-txt {
+      font-size: 16px;
+    }
+
+    /*-----Sobre-----*/
+
+
+  .sobre-title {
+    gap: 70px;
+    margin: 0px 130px;
+  }
+
+  .sobre-title h1{
+font-size: 14px;
+font-weight: 600;
+}
+
+  .line {
+  margin: 60px 100px 0px 100px;
+}
+
+/*Projetos*/
+
+.projetos {
+  font-size: 40px;
+}
+
+/*Frase de Impacto*/
+
+.frasedeimpacto h1 {
+  font-size: 62px;
+}
+
+  /*Contact*/
+
+  .contact {
+    height: 270px;
+  }
+
+  .contact-title h1 {
+    font-size: 50px;
+    width: 500px;
+
+  }
+
+  .contact-title img {
+    width: 160px;
+    height: 100%;
+    }
+
+    .contact-title h1:nth-child(2) {
+      margin-left: 0px;
+      height: 40px;
+      color: #1d6dd6;
+    }
+
+  .hardskills-circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  /*-----Footer------*/
+
+  .footer-container {
+    height: 100px;
+  }
+
+ .logo h2 {
+  width: 250px;
+  font-size: 15px;
+}
+
+.navbar {
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 750px) {
+  button {
+    padding: 10px 7px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 43px;
+    height: 100%;
+  }
+  
+  /*-----Sobre-----*/
+
+
+.sobre-title {
+  gap: 40px;
+  margin: 0px 100px;
+}
+
+.sobre-title h1{
+font-size: 14px;
+font-weight: 600;
+}
+
+.line {
+margin: 60px 100px 0px 100px;
+}
+
+/*Projetos*/
+
+.projetos {
+font-size: 35px;
+}
+
+.right {
+  max-width: 600px;
+  margin: 20px auto;
+  font-weight: 400;
+}
+
+.left {
+  max-width: 600px;
+  margin: auto;
+  font-weight: 400;
+}
+
+/*Frase de Impacto*/
+
+.frasedeimpacto h1 {
+font-size: 56px;
+}
+
+/*Contact*/
+
+.contact {
+  height: 250px;
+}
+
+.contact-title h1 {
+  font-size: 50px;
+  width: 490px;
+}
+
+.hardskills-circle {
+  width: 140px;
+  height: 140px;
+}
+
+/*-----Footer------*/
+
+.footer-container {
+  height: 100px;
+}
+
+.logo h2 {
+width: 230px;
+font-size: 15px;
+}
+
+.navbar {
+font-size: 15px;
+}
+}
+
+@media screen and (max-width: 678px) {
+  
+  button {
+    padding: 10px 7px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 43px;
+    height: 100%;
+  }
+  
+  /*-----Sobre-----*/
+
+
+.sobre-title {
+  gap: 40px;
+  margin: 0px 70px;
+}
+
+.sobre-title h1{
+font-size: 12px;
+font-weight: 600;
+}
+
+.line {
+margin: 60px 80px 0px 80px;
+}
+
+/*Projetos*/
+
+.projetos {
+font-size: 30px;
+}
+
+.right {
+  max-width: 600px;
+  margin: 20px auto;
+  font-weight: 400;
+}
+
+.left {
+  max-width: 600px;
+  margin: auto;
+  font-weight: 400;
+}
+
+/*Frase de Impacto*/
+
+.frasedeimpacto h1 {
+font-size: 49px;
+}
+
+/*Contact*/
+
+.contact {
+  height: 230px;
+}
+
+.contact-title h1 {
+  font-size: 45px;
+  width: 430px;
+}
+
+.contact-title img {
+  width: 120px;
+  height: 100%;
+  }
+
+.hardskills-circle {
+  width: 130px;
+  height: 130px;
+}
+
+/*-----Footer------*/
+
+.footer-container {
+  height: 100px;
+}
+
+.logo h2 {
+width: 160px;
+font-size: 15px;
+}
+
+.navbar {
+font-size: 15px;
+}
+
+.hardskills-circle span {
+  font-size: 20px;
+  color: white;
+}
+
+.social {
+  width: 200px;
+}
+}
+
+@media screen and (max-width: 610px) {
+
+  /*-----Inicio-----*/
+
+  .inicio h1 {
+    font-size: 60px;
+    height: 90px;
+  }
+
+  .inicio h2 {
+    font-size: 20px;
+  }
+
+  button {
+    padding: 10px 7px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 43px;
+    height: 100%;
+  }
+  .button-txt {
+    font-size: 16px;
+  }
+
+  .copy span {
+    font-size: 15px;
+  }
+
+  /*-----Sobre-----*/
+
+
+.sobre-title {
+  gap: 80px;
+  margin: 0px 70px;
+}
+
+.sobre-title h1{
+font-size: 12px;
+font-weight: 600;
+}
+
+.line {
+margin: 60px 70px 0px 70px;
+}
+
+/*Projetos*/
+
+.projetos {
+font-size: 25px;
+padding: 0px 80px;
+}
+
+.right {
+  max-width: 600px;
+  margin: 20px auto;
+  font-weight: 400;
+}
+
+.left {
+  max-width: 600px;
+  margin: auto;
+  font-weight: 400;
+}
+
+/*Frase de Impacto*/
+
+.frasedeimpacto h1 {
+font-size: 42px;
+}
+
+/*Contact*/
+
+.contact {
+  height: 180px;
+}
+
+.contact-title h1 {
+  font-size: 40px;
+  width: 400px;
+}
+
+.contact-title h1:nth-child(2) {
+  margin-left: 0px;
+  height: 40px;
+  color: #1d6dd6;
+}
+
+.contact-title img {
+  width: 110px;
+  height: 100%;
+  }
+
+.hardskills-circle {
+  width: 120px;
+  height: 120px;
+}
+
+/*-----Footer------*/
+
+.footer-container {
+  height: 100px;
+}
+
+.logo h2 {
+width: 140px;
+font-size: 15px;
+}
+
+.navbar {
+font-size: 15px;
+}
+
+.hardskills-circle span {
+  font-size: 18px;
+  color: white;
+}
+
+.social {
+  width: 200px;
+}
+
+.social .bxs {
+  font-size: 20px;
+
+}
+}
+
+@media screen and (max-width: 510px) {
+
+  /*-----Inicio-----*/
+
+  .inicio h1 {
+    font-size: 50px;
+    height: 70px;
+  }
+
+  .inicio h2 {
+    font-size: 17px;
+  }
+
+  button {
+    padding: 10px 7px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 40px;
+    height: 100%;
+  }
+
+  .button-txt {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .copy span {
+    font-size: 15px;
+  }
+
+  /*-----Sobre-----*/
+
+
+.sobre-title {
+  gap: 30px;
+  margin: 0px 50px;
+}
+
+.sobre-title h1{
+font-size: 13px;
+font-weight: 600;
+}
+
+.line {
+margin: 60px 70px 0px 70px;
+}
+
+  /*Projetos*/
+
+.projetos {
+  font-size: 22px;
+  padding: 0px 70px;
+  }
+
+  .right {
+    max-width: 600px;
+    margin: 20px auto;
+    font-weight: 400;
+  }
+
+  .left {
+    max-width: 600px;
+    margin: auto;
+    font-weight: 400;
+  }
+
+  /*Frase de Impacto*/
+
+.frasedeimpacto h1 {
+  font-size: 35px;
+  }
+  
+/*Contact*/
+
+.contact {
+  height: 180px;
+}
+
+.contact-title h1 {
+  font-size: 33px;
+  width: 340px;
+  font-weight: 600;
+}
+
+.contact-title h1:nth-child(2) {
+  margin-left: 0px;
+  height: 40px;
+  color: #1d6dd6;
+}
+
+.contact-title img {
+  width: 90px;
+  height: 100%;
+  }
+
+.hardskills-circle {
+  width: 100px;
+  height: 100px;
+}
+
+/*-----Footer------*/
+
+.footer-container {
+  height: 90px;
+}
+
+.logo h2 {
+width: 110px;
+font-size: 15px;
+}
+
+.navbar {
+font-size: 15px;
+}
+
+.hardskills-circle span {
+  font-size: 18px;
+  color: white;
+}
+
+.social {
+  width: 200px;
+}
+
+.social .bxs {
+  font-size: 20px;
+
+}
+}
+
+@media screen and (max-width: 454px) {
+
+  /*-----Inicio-----*/
+
+  .inicio h1 {
+    font-size: 45px;
+    height: 65px;
+  }
+
+  .inicio h2 {
+    font-size: 17px;
+  }
+
+  button {
+    padding: 10px 7px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 40px;
+    height: 100%;
+  }
+
+  .button-txt {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .copy span {
+    font-size: 15px;
+  }
+
+  /*-----Sobre-----*/
+
+
+.sobre-title {
+  gap: 30px;
+  margin: 0px 40px;
+}
+
+.sobre-title h1{
+font-size: 11px;
+font-weight: 600;
+}
+
+.line {
+margin: 60px 40px 0px 40px;
+}
+
+  /*Projetos*/
+
+.projetos {
+  font-size: 21.5px;
+  padding: 0px 50px;
+  }
+
+  .right {
+    max-width: 1000px;
+    margin: 20px auto;
+    font-weight: 400;
+  }
+
+  .left {
+    max-width: 1000px;
+    margin: auto;
+    font-weight: 400;
+  }
+
+  /*Frase de Impacto*/
+
+.frasedeimpacto h1 {
+  font-size: 29px;
+  }
+  
+/*Contact*/
+
+.contact {
+  height: 130px;
+}
+
+.contact-title h1 {
+  font-size: 27px;
+  width: 260px;
+  font-weight: 600;
+}
+
+.contact-title h1:nth-child(2) {
+  margin-left: 0px;
+  height: 20px;
+  color: #1d6dd6;
+}
+
+.contact-title img {
+  width: 70px;
+  height: 100%;
+  }
+
+.hardskills-circle {
+  width: 80px;
+  height: 80px;
+}
+
+.hardskills-circle span {
+  font-size: 15px;
+  color: white;
+}
+
+/*-----Footer------*/
+
+.footer-container {
+  height: 90px;
+}
+
+.logo h2 {
+width: 90px;
+font-size: 12px;
+}
+
+.navbar {
+font-size: 12px;
+}
+
+.social {
+  width: 200px;
+}
+
+.social .bxs {
+  font-size: 15px;
+
+}
+}
+
+@media screen and (max-width: 390px) {
+
+  /*-----Inicio-----*/
+
+  .inicio h1 {
+    font-size: 45px;
+    height: 65px;
+  }
+
+  .inicio h2 {
+    font-size: 17px;
+  }
+
+  button {
+    padding: 10px 7px;
+  }
+
+  button::before {
+    border-radius: 30px;
+    width: 40px;
+    height: 100%;
+  }
+
+  .button-txt {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .copy span {
+    font-size: 15px;
+  }
+
+  /*-----Sobre-----*/
+
+
+.sobre-title {
+  gap: 25px;
+  margin: 0px 30px;
+}
+
+.sobre-title h1{
+font-size: 11px;
+font-weight: 650;
+}
+
+.line {
+margin: 60px 40px 0px 40px;
+}
+
+  /*Projetos*/
+
+.projetos {
+  font-size: 21.5px;
+  padding: 0px 35px;
+  }
+
+  .right {
+    max-width: 1000px;
+    margin: 20px auto;
+    font-weight: 400;
+  }
+
+  .left {
+    max-width: 1000px;
+    margin: auto;
+    font-weight: 400;
+  }
+
+  /*Frase de Impacto*/
+
+.frasedeimpacto h1 {
+  font-size: 29px;
+  }
+  
+/*Contact*/
+
+.contact {
+  height: 130px;
+}
+
+.contact-title h1 {
+  font-size: 27px;
+  width: 260px;
+  font-weight: 600;
+}
+
+.contact-title h1:nth-child(2) {
+  margin-left: 0px;
+  height: 20px;
+  color: #1d6dd6;
+}
+
+.contact-title img {
+  width: 70px;
+  height: 100%;
+  }
+
+.hardskills-circle {
+  width: 80px;
+  height: 80px;
+}
+
+/*-----Footer------*/
+
+.footer-container {
+  height: 90px;
+}
+
+.logo h2 {
+width: 90px;
+font-size: 12px;
+}
+
+.navbar {
+font-size: 12px;
+}
+
+
+.social {
+  width: 200px;
+}
+
+.social .bxs {
+  font-size: 15px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
