@@ -144,8 +144,8 @@ button:hover::before {
   text-align: left;
   justify-content: space-between;
   align-items: start;
-  margin: 0px 300px;
-  gap: 100px;
+  margin: 0px 200px;
+  gap: 200px;
 }
 
 .sobre h1 {
@@ -159,7 +159,7 @@ button:hover::before {
 
 .line {
   border: solid 0.5px rgba(0, 0, 0, 0.575);
-  margin: 0px 300px;
+  margin: 0px 200px;
 }
 
 .sobre-title div:nth-child(1) {

@@ -104,10 +104,10 @@ function atualizarTextoPorTamanho() {
   if (window.innerWidth <= 610) {
     // Texto reduzido para telas pequenas
     if (texto2) {
-      texto2.textContent = "Crescendo através da criação e do desenvolvimento.";
+      texto2.textContent = "Crescendo por meio da criação e do desenvolvimento.";
     }
     if (texto1) {
-      texto1.textContent = "Aspirante a desenvolvedor Full Stack, focado em back-end e em constante evolução.";
+      texto1.textContent = "Aspirante a desenvolvedor Full Stack, com foco atual em Back-End.";
     }
   } else {
     // Texto original para telas maiores
