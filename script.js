@@ -121,16 +121,3 @@ function atualizarTextoPorTamanho() {
 window.addEventListener("DOMContentLoaded", atualizarTextoPorTamanho);
 window.addEventListener("resize", atualizarTextoPorTamanho);
 
-//Animação Particles.js
-
-document.addEventListener("DOMContentLoaded", () => {
-  fetch("particles-config.json")
-    .then(response => response.json())
-    .then(config => {
-      tsParticles.load("particles-js", config);
-    })
-    .catch(error => {
-      console.error("Erro ao carregar o arquivo de configuração do tsParticles:", error);
-    });
-});
-
