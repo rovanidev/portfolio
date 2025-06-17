@@ -27,6 +27,7 @@ body,
 html {
   font-family: "Poppins";
   overflow-x: hidden;
+  background-color: transparent;
 }
 
 /*--------------ANIMAÇÕES JS-----------------*/
@@ -61,13 +62,32 @@ html {
   transform: translateY(0%);
 }
 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 /*-----------------INÍCIO---------------------*/
+
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 .copy {
   font-family: "Poppins";
   font-weight: 500;
-  margin: 20px 0px 0px 20px;
-  display: inline-flex;
   font-size: 20px;
 }
 
@@ -419,7 +439,7 @@ button:hover::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: white; 
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -806,7 +826,7 @@ button:hover::before {
     font-size: 21px;
   }
 
- button {
+  button {
     padding: 8.57px 5.91px;
     margin-top: 10.29px;
   }
@@ -818,7 +838,7 @@ button:hover::before {
 
   .button-txt {
     font-size: 12.86px;
-    gap: 6.00px;
+    gap: 6px;
   }
 
   .sobre-title {
@@ -912,7 +932,7 @@ button:hover::before {
     font-size: 20px;
   }
 
-   button {
+  button {
     padding: 7.98px 5.51px;
     margin-top: 9.58px;
   }
@@ -1139,7 +1159,7 @@ button:hover::before {
   }
 
   button {
-    padding: 6.30px 4.36px;
+    padding: 6.3px 4.36px;
     margin-top: 7.57px;
   }
 
@@ -1358,7 +1378,7 @@ button:hover::before {
   /*-----Inicio-----*/
 
   .copy {
-    font-size: 8.60px;
+    font-size: 8.6px;
   }
 
   .inicio h1 {
@@ -1381,8 +1401,8 @@ button:hover::before {
   }
 
   .button-txt {
-    font-size: 6.40px;
-    gap: 3.00px;
+    font-size: 6.4px;
+    gap: 3px;
   }
   .sobre-title {
     gap: 53.69px;
@@ -1497,7 +1517,7 @@ button:hover::before {
   }
 
   .button-txt {
-    font-size: 5.70px;
+    font-size: 5.7px;
     gap: 2.67px;
   }
 
@@ -1588,3 +1608,5 @@ DEIXAR A LOGO BRUNO9 ROVANI MAIS A FRENTE EM SMARTPHONES
 CODE BY ROVANI TBM
 LOGO NO FOOTER PARA CELULARES DEIXAR O DEVELOPER EMBAIXO
 */
+
+/* background-color: #0f0f11; preto */
