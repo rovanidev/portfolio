@@ -528,8 +528,8 @@ button:hover::before {
   }
 
   .sobre-title span {
-  font-size: 16.35px;
-}
+    font-size: 16.35px;
+  }
 
   .line {
     margin: 0px 164px;
@@ -628,8 +628,8 @@ button:hover::before {
   }
 
   .sobre-title span {
-  font-size: 14.48px;
-}
+    font-size: 14.48px;
+  }
 
   .line {
     margin: 0px 145px;
@@ -691,7 +691,7 @@ button:hover::before {
 
 @media screen and (max-width: 1190px) {
   .copy {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .inicio h1 {
@@ -704,18 +704,19 @@ button:hover::before {
   }
 
   button {
-    padding: 6.19px 3.71px;
+    padding: 10px 6.9px;
     margin-top: 12px;
   }
 
   button::before {
-    width: 31px;
+    width: 42px;
     border-radius: 30px;
   }
 
   .button-txt {
-    font-size: 12.12px;
+    font-size: 15px;
     gap: 7px;
+    font-weight: 400;
   }
 
   .sobre-title {
@@ -728,9 +729,9 @@ button:hover::before {
     font-weight: 500;
   }
 
-   .sobre-title span {
-  font-size: 12.40px;
-}
+  .sobre-title span {
+    font-size: 12.4px;
+  }
 
   .line {
     margin: 0px 124px;
@@ -792,807 +793,797 @@ button:hover::before {
 }
 
 @media screen and (max-width: 1020px) {
-
-   .copy {
-    font-size: 12px;
+  .copy {
+    font-size: 17px;
   }
 
- .inicio h1 {
-  font-size: 52px;
-  height: 63px;
-}
+  .inicio h1 {
+    font-size: 60px;
+    height: 70px;
+  }
 
-.inicio h2 {
-  font-size: 21px;
-}
+  .inicio h2 {
+    font-size: 21px;
+  }
 
-button {
-  padding: 5px 3px;
-  margin-top: 10px;
-}
+ button {
+    padding: 8.57px 5.91px;
+    margin-top: 10.29px;
+  }
 
-button::before {
-  width: 27px;
-  border-radius: 26px;
-}
+  button::before {
+    width: 36.03px;
+    border-radius: 25.71px;
+  }
 
-.button-txt {
-  font-size: 10px;
-  gap: 6px;
-}
+  .button-txt {
+    font-size: 12.86px;
+    gap: 6.00px;
+  }
 
-.sobre-title {
-  gap: 106px;
-  margin: 0px 106px;
-}
+  .sobre-title {
+    gap: 106px;
+    margin: 0px 106px;
+  }
 
-#texto1 {
-  font-size: 15px;
-  font-weight: 600;
-}
+  #texto1 {
+    font-size: 15px;
+    font-weight: 600;
+  }
 
-#texto2 {
-  font-size: 13px;
-}
+  #texto2 {
+    font-size: 13px;
+  }
 
- .sobre-title span {
-  font-size: 10.63px;
-}
+  .sobre-title span {
+    font-size: 10.63px;
+  }
 
-.line {
-  margin: 0px 106px;
-}
+  .line {
+    margin: 0px 106px;
+  }
 
-.projetos {
-  padding: 0px 42px;
-  font-size: 42px;
-}
+  .projetos {
+    padding: 0px 42px;
+    font-size: 42px;
+  }
 
-.right,
+  .right,
   .left {
     max-width: 530px;
   }
 
-.frasedeimpacto h1 {
-  font-size: 74px;
-}
+  .frasedeimpacto h1 {
+    font-size: 74px;
+  }
 
-.contact {
-  height: 264px;
-}
+  .contact {
+    height: 264px;
+  }
 
-.contact-title h1 {
-  font-size: 53px;
-  width: 478px;
-}
+  .contact-title h1 {
+    font-size: 53px;
+    width: 478px;
+  }
 
-.contact-title img {
-  width: 117px;
-}
+  .contact-title img {
+    width: 117px;
+  }
 
-.contact-title h1:nth-child(2) {
-  margin-left: 0px;
-  height: 42px;
-}
+  .contact-title h1:nth-child(2) {
+    margin-left: 0px;
+    height: 42px;
+  }
 
-.hardskills-circle {
-  width: 117px;
-  height: 117px;
-}
+  .hardskills-circle {
+    width: 117px;
+    height: 117px;
+  }
 
-.hardskills-circle span {
-  font-size: 15px;
-}
+  .hardskills-circle span {
+    font-size: 15px;
+  }
 
-.footer-container {
-  height: auto;
-}
+  .footer-container {
+    height: auto;
+  }
 
-.logo h2 {
-  width: 326px;
-  font-size: 20px;
-}
+  .logo h2 {
+    width: 326px;
+    font-size: 20px;
+  }
 
-.navbar {
-  font-size: 15px;
-}
+  .navbar {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 950px) {
+  .copy {
+    font-size: 16px;
+  }
 
- .copy {
-  font-size: 11px;
-}
+  .inicio h1 {
+    font-size: 56px;
+    height: 65px;
+  }
 
-.inicio h1 {
-  font-size: 48px;
-  height: 59px;
-}
+  .inicio h2 {
+    font-size: 20px;
+  }
 
-.inicio h2 {
-  font-size: 20px;
-}
+   button {
+    padding: 7.98px 5.51px;
+    margin-top: 9.58px;
+  }
 
-button {
-  padding: 6px 3px;
-  margin-top: 9px;
-}
+  button::before {
+    width: 33.53px;
+    border-radius: 23.95px;
+  }
 
-button::before {
-  width: 25px;
-  border-radius: 24px;
-}
+  .button-txt {
+    font-size: 11.97px;
+    gap: 5.59px;
+  }
 
-.button-txt {
-  font-size: 9px;
-  gap: 6px;
-}
+  .sobre-title {
+    gap: 99px;
+    margin: 0px 99px;
+  }
 
-.sobre-title {
-  gap: 99px;
-  margin: 0px 99px;
-}
+  #texto1 {
+    font-size: 14px;
+    font-weight: 600;
+  }
 
-#texto1 {
-  font-size: 14px;
-  font-weight: 600;
-}
+  #texto2 {
+    font-size: 12px;
+  }
 
-#texto2 {
-  font-size: 12px;
-}
+  .sobre-title span {
+    font-size: 9.9px;
+  }
 
-.sobre-title span {
-  font-size: 9.90px;
-}
+  .line {
+    margin: 0px 99px;
+  }
 
-.line {
-  margin: 0px 99px;
-}
+  .projetos {
+    padding: 0px 39px;
+    font-size: 39px;
+  }
 
-.projetos {
-  padding: 0px 39px;
-  font-size: 39px;
-}
+  .right {
+    max-width: 600px;
+    margin: 20px auto;
+  }
 
-.right {
-  max-width: 600px;
-  margin: 20px auto;
-}
+  .left {
+    max-width: 600px;
+    margin: auto;
+  }
 
-.left {
-  max-width: 600px;
-  margin: auto;
-}
+  .frasedeimpacto h1 {
+    font-size: 69px;
+  }
 
-.frasedeimpacto h1 {
-  font-size: 69px;
-}
+  .contact {
+    height: 246px;
+  }
 
-.contact {
-  height: 246px;
-}
+  .contact-title h1 {
+    font-size: 49px;
+    width: 445px;
+  }
 
-.contact-title h1 {
-  font-size: 49px;
-  width: 445px;
-}
+  .contact-title img {
+    width: 109px;
+  }
 
-.contact-title img {
-  width: 109px;
-}
+  .contact-title h1:nth-child(2) {
+    margin-left: 0px;
+    height: 39px;
+  }
 
-.contact-title h1:nth-child(2) {
-  margin-left: 0px;
-  height: 39px;
-}
+  .hardskills-circle {
+    width: 109px;
+    height: 109px;
+  }
 
-.hardskills-circle {
-  width: 109px;
-  height: 109px;
-}
+  .hardskills-circle span {
+    font-size: 14px;
+  }
 
-.hardskills-circle span {
-  font-size: 14px;
-}
+  .footer-container {
+    height: auto;
+  }
 
-.footer-container {
-  height: auto;
-}
+  .logo h2 {
+    width: 300px;
+    font-size: 20px;
+  }
 
-.logo h2 {
-  width: 300px;
-  font-size: 20px;
-}
-
-.navbar {
-  font-size: 16px;
-}
-
+  .navbar {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 840px) {
- .copy {
-  font-size: 10px;
-}
+  .copy {
+    font-size: 14.11px;
+  }
 
-.inicio h1 {
-  font-size: 42px;
-  height: 52px;
-}
+  .inicio h1 {
+    font-size: 49.47px;
+    height: 57.47px;
+  }
 
-.inicio h2 {
-  font-size: 18px;
-}
+  .inicio h2 {
+    font-size: 18px;
+  }
 
-button {
-  padding: 5px 3px;
-  margin-top: 8px;
-}
+  button {
+    padding: 7.06px 4.88px;
+    margin-top: 8.47px;
+  }
 
-button::before {
-  width: 22px;
-  border-radius: 21px;
-}
+  button::before {
+    width: 29.63px;
+    border-radius: 21.14px;
+  }
 
-.button-txt {
-  font-size: 8px;
-  gap: 5px;
-}
+  .button-txt {
+    font-size: 10.53px;
+    gap: 4.94px;
+  }
 
-.sobre-title {
-  gap: 88px;
-  margin: 0px 88px;
-}
+  .sobre-title {
+    gap: 88px;
+    margin: 0px 88px;
+  }
 
-#texto1 {
-  font-size: 12px;
-  font-weight: 600;
-}
+  #texto1 {
+    font-size: 12px;
+    font-weight: 600;
+  }
 
-#texto2 {
-  font-size: 10.7px;
-}
+  #texto2 {
+    font-size: 10.7px;
+  }
 
-.sobre-title span {
-  font-size: 8.75px;
-}
+  .sobre-title span {
+    font-size: 8.75px;
+  }
 
-.line {
-  margin: 0px 88px;
-}
+  .line {
+    margin: 0px 88px;
+  }
 
-.projetos {
-  padding: 0px 35px;
-  font-size: 35px;
-}
+  .projetos {
+    padding: 0px 35px;
+    font-size: 35px;
+  }
 
-.right {
-  max-width: 531px;
-  margin: 18px auto;
-}
+  .right {
+    max-width: 531px;
+    margin: 18px auto;
+  }
 
-.left {
-  max-width: 531px;
-  margin: auto;
-}
+  .left {
+    max-width: 531px;
+    margin: auto;
+  }
 
-.frasedeimpacto h1 {
-  font-size: 61px;
-}
+  .frasedeimpacto h1 {
+    font-size: 61px;
+  }
 
-.contact {
-  height: 217px;
-}
+  .contact {
+    height: 217px;
+  }
 
-.contact-title h1 {
-  font-size: 43px;
-  width: 394px;
-}
+  .contact-title h1 {
+    font-size: 43px;
+    width: 394px;
+  }
 
-.contact-title img {
-  width: 96px;
-}
+  .contact-title img {
+    width: 96px;
+  }
 
-.contact-title h1:nth-child(2) {
-  margin-left: 0px;
-  height: 34px;
-}
+  .contact-title h1:nth-child(2) {
+    margin-left: 0px;
+    height: 34px;
+  }
 
-.hardskills-circle {
-  width: 96px;
-  height: 96px;
-}
+  .hardskills-circle {
+    width: 96px;
+    height: 96px;
+  }
 
-.hardskills-circle span {
-  font-size: 12px;
-}
+  .hardskills-circle span {
+    font-size: 12px;
+  }
 
-.footer-container {
-  height: auto;
-}
+  .footer-container {
+    height: auto;
+  }
 
-.logo h2 {
-  width: 249px;
-  font-size: 19px;
-}
+  .logo h2 {
+    width: 249px;
+    font-size: 19px;
+  }
 
-.navbar {
-  font-size: 14px;
-}
+  .navbar {
+    font-size: 14px;
+  }
 
-.social .bx {
-  font-size: 20px;
-}
+  .social .bx {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 750px) {
-   .copy {
-  font-size: 9px;
-}
+  .copy {
+    font-size: 12.63px;
+  }
 
-.inicio h1 {
-  font-size: 38px;
-  height: 46px;
-}
+  .inicio h1 {
+    font-size: 44.21px;
+    height: 51.32px;
+  }
 
-.inicio h2 {
-  font-size: 16px;
-}
+  .inicio h2 {
+    font-size: 16px;
+  }
 
-button {
-  padding: 4px 3px;
-  margin-top: 7px;
-}
+  button {
+    padding: 6.30px 4.36px;
+    margin-top: 7.57px;
+  }
 
-button::before {
-  width: 20px;
-  border-radius: 19px;
-}
+  button::before {
+    width: 26.45px;
+    border-radius: 18.86px;
+  }
 
-.button-txt {
-  font-size: 7px;
-  gap: 4px;
-}
+  .button-txt {
+    font-size: 9.39px;
+    gap: 4.41px;
+  }
 
-.sobre-title {
-  gap: 79px;
-  margin: 0px 79px;
-}
+  .sobre-title {
+    gap: 79px;
+    margin: 0px 79px;
+  }
 
-#texto1 {
-  font-size: 11px;
-  font-weight: 600;
-}
+  #texto1 {
+    font-size: 11px;
+    font-weight: 600;
+  }
 
-#texto2 {
-  font-size: 9.5px;
-}
+  #texto2 {
+    font-size: 9.5px;
+  }
 
-.sobre-title span {
-  font-size: 7.81px;
-}
+  .sobre-title span {
+    font-size: 7.81px;
+  }
 
-.line {
-  margin: 0px 79px;
-}
+  .line {
+    margin: 0px 79px;
+  }
 
-.projetos {
-  padding: 0px 31px;
-  font-size: 31px;
-}
+  .projetos {
+    padding: 0px 31px;
+    font-size: 31px;
+  }
 
-.right {
-  max-width: 474px;
-  margin: 16px auto;
-}
+  .right {
+    max-width: 474px;
+    margin: 16px auto;
+  }
 
-.left {
-  max-width: 474px;
-  margin: auto;
-}
+  .left {
+    max-width: 474px;
+    margin: auto;
+  }
 
-.frasedeimpacto h1 {
-  font-size: 54px;
-}
+  .frasedeimpacto h1 {
+    font-size: 54px;
+  }
 
-.contact {
-  height: 194px;
-}
+  .contact {
+    height: 194px;
+  }
 
-.contact-title h1 {
-  font-size: 38px;
-  width: 352px;
-}
+  .contact-title h1 {
+    font-size: 38px;
+    width: 352px;
+  }
 
-.contact-title img {
-  width: 86px;
-}
+  .contact-title img {
+    width: 86px;
+  }
 
-.contact-title h1:nth-child(2) {
-  margin-left: 0px;
-  height: 30px;
-}
+  .contact-title h1:nth-child(2) {
+    margin-left: 0px;
+    height: 30px;
+  }
 
-.hardskills-circle {
-  width: 86px;
-  height: 86px;
-}
+  .hardskills-circle {
+    width: 86px;
+    height: 86px;
+  }
 
-.hardskills-circle span {
-  font-size: 11px;
-}
+  .hardskills-circle span {
+    font-size: 11px;
+  }
 
-.footer-container {
-  height: auto;
-}
+  .footer-container {
+    height: auto;
+  }
 
-.logo h2 {
-  width: 222px;
-  font-size: 17px;
-}
+  .logo h2 {
+    width: 150px;
+    font-size: 17px;
+  }
 
-.navbar {
-  font-size: 13px;
-}
+  .navbar {
+    font-size: 13px;
+  }
 
-.social .bx {
-  font-size: 18px;
-}
+  .social .bx {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 610px) {
- .copy {
-  font-size: 7.32px;
-}
+  .copy {
+    font-size: 10.27px;
+  }
 
-.inicio h1 {
-  font-size: 30.91px;
-  height: 37.41px;
-}
+  .inicio h1 {
+    font-size: 36px;
+    height: 41.85px;
+  }
 
-.inicio h2 {
-  font-size: 13.01px;
-}
+  .inicio h2 {
+    font-size: 13.01px;
+  }
 
-button {
-  padding: 3.25px 2.44px;
-  margin-top: 5.69px;
-}
+  button {
+    padding: 5.13px 3.55px;
+    margin-top: 6.14px;
+  }
 
-button::before {
-  width: 16.27px;
-  border-radius: 15.45px;
-}
+  button::before {
+    width: 21.52px;
+    border-radius: 15.34px;
+  }
 
-.button-txt {
-  font-size: 5.69px;
-  gap: 3.25px;
-}
+  .button-txt {
+    font-size: 7.65px;
+    gap: 3.59px;
+  }
+  .sobre-title {
+    gap: 64.25px;
+    margin: 0px 64.25px;
+  }
 
-.sobre-title {
-  gap: 64.25px;
-  margin: 0px 64.25px;
-}
+  #texto1 {
+    font-size: 11px;
+    font-weight: 600;
+  }
 
-#texto1 {
-  font-size: 11px;
-  font-weight: 600;
-}
+  #texto2 {
+    font-size: 10px;
+  }
 
-#texto2 {
-  font-size: 10px;
-}
+  .sobre-title span {
+    font-size: 6.35px;
+  }
 
-.sobre-title span {
-  font-size: 6.35px;
-}
+  .line {
+    margin: 0px 64.25px;
+  }
 
-.line {
-  margin: 0px 64.25px;
-}
+  .projetos {
+    padding: 0px 25.2px;
+    font-size: 25.21px;
+  }
 
-.projetos {
-  padding: 0px 25.2px;
-  font-size: 25.21px;
-}
+  .right {
+    max-width: 385.51px;
+    margin: 13.01px auto;
+  }
 
-.right {
-  max-width: 385.51px;
-  margin: 13.01px auto;
-}
+  .left {
+    max-width: 385.51px;
+    margin: auto;
+  }
 
-.left {
-  max-width: 385.51px;
-  margin: auto;
-}
+  .frasedeimpacto h1 {
+    font-size: 43.92px;
+  }
 
-.frasedeimpacto h1 {
-  font-size: 43.92px;
-}
+  .contact {
+    height: 157.77px;
+  }
 
-.contact {
-  height: 157.77px;
-}
+  .contact-title h1 {
+    font-size: 30.91px;
+    width: 285.33px;
+  }
 
-.contact-title h1 {
-  font-size: 30.91px;
-  width: 285.33px;
-}
+  .contact-title img {
+    width: 69.94px;
+  }
 
-.contact-title img {
-  width: 69.94px;
-}
+  .contact-title h1:nth-child(2) {
+    margin-left: 0px;
+    height: 24.4px;
+  }
 
-.contact-title h1:nth-child(2) {
-  margin-left: 0px;
-  height: 24.4px;
-}
+  .hardskills-circle {
+    width: 69.94px;
+    height: 69.94px;
+  }
 
-.hardskills-circle {
-  width: 69.94px;
-  height: 69.94px;
-}
+  .hardskills-circle span {
+    font-size: 8.95px;
+  }
 
-.hardskills-circle span {
-  font-size: 8.95px;
-}
+  .footer-container {
+    height: auto;
+  }
 
-.footer-container {
-  height: auto;
-}
+  .logo h2 {
+    width: 150px;
+    font-size: 13.82px;
+  }
 
-.logo h2 {
-  width: 180.56px;
-  font-size: 13.82px;
-}
+  .navbar {
+    font-size: 10.57px;
+  }
 
-.navbar {
-  font-size: 10.57px;
-}
-
-.social .bx {
-  font-size: 15px;
-}
+  .social .bx {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 510px) {
   /*-----Inicio-----*/
 
   .copy {
-  font-size: 6.12px;
-}
+    font-size: 8.60px;
+  }
 
-.inicio h1 {
-  font-size: 25.85px;
-  height: 31.25px;
-}
+  .inicio h1 {
+    font-size: 30.07px;
+    height: 35.18px;
+  }
 
-.inicio h2 {
-  font-size: 10.87px;
-}
+  .inicio h2 {
+    font-size: 10.87px;
+  }
 
-button {
-  padding: 2.71px 2.04px;
-  margin-top: 4.76px;
-}
+  button {
+    padding: 4.29px 2.97px;
+    margin-top: 5.13px;
+  }
 
-button::before {
-  width: 13.6px;
-  border-radius: 12.92px;
-}
+  button::before {
+    width: 17.99px;
+    border-radius: 12.82px;
+  }
 
-.button-txt {
-  font-size: 4.76px;
-  gap: 2.71px;
-}
+  .button-txt {
+    font-size: 6.40px;
+    gap: 3.00px;
+  }
+  .sobre-title {
+    gap: 53.69px;
+    margin: 0px 53.69px;
+  }
 
-.sobre-title {
-  gap: 53.69px;
-  margin: 0px 53.69px;
-}
+  #texto1 {
+    font-size: 9.2px;
+    font-weight: 600;
+  }
 
-#texto1 {
-  font-size: 9.2px;
-  font-weight: 600;
-}
+  #texto2 {
+    font-size: 8.4px;
+  }
 
-#texto2 {
-  font-size: 8.4px;
-}
+  .sobre-title span {
+    font-size: 5.31px;
+  }
 
-.sobre-title span {
-  font-size: 5.31px;
-}
+  .line {
+    margin: 0px 53.69px;
+  }
 
-.line {
-  margin: 0px 53.69px;
-}
+  .projetos {
+    padding: 0px 21.08px;
+    font-size: 21.08px;
+  }
 
-.projetos {
-  padding: 0px 21.08px;
-  font-size: 21.08px;
-}
+  .right {
+    max-width: 322.39px;
+    margin: 10.87px auto;
+  }
 
-.right {
-  max-width: 322.39px;
-  margin: 10.87px auto;
-}
+  .left {
+    max-width: 322.39px;
+    margin: auto;
+  }
 
-.left {
-  max-width: 322.39px;
-  margin: auto;
-}
+  .frasedeimpacto h1 {
+    font-size: 36.72px;
+  }
 
-.frasedeimpacto h1 {
-  font-size: 36.72px;
-}
+  .contact {
+    height: 131.97px;
+  }
 
-.contact {
-  height: 131.97px;
-}
+  .contact-title h1 {
+    font-size: 25.85px;
+    width: 238.46px;
+  }
 
-.contact-title h1 {
-  font-size: 25.85px;
-  width: 238.46px;
-}
+  .contact-title img {
+    width: 58.49px;
+  }
 
-.contact-title img {
-  width: 58.49px;
-}
+  .contact-title h1:nth-child(2) {
+    margin-left: 0px;
+    height: 20.4px;
+  }
 
-.contact-title h1:nth-child(2) {
-  margin-left: 0px;
-  height: 20.4px;
-}
+  .hardskills-circle {
+    width: 58.49px;
+    height: 58.49px;
+  }
 
-.hardskills-circle {
-  width: 58.49px;
-  height: 58.49px;
-}
+  .hardskills-circle span {
+    font-size: 7.49px;
+  }
 
-.hardskills-circle span {
-  font-size: 7.49px;
-}
+  .footer-container {
+    height: auto;
+  }
 
-.footer-container {
-  height: auto;
-}
+  .logo h2 {
+    width: 140px;
+    font-size: 11.56px;
+  }
 
-.logo h2 {
-  width: 151.01px;
-  font-size: 11.56px;
-}
+  .navbar {
+    font-size: 10.84px;
+  }
 
-.navbar {
-  font-size: 8.84px;
-}
-
-.social .bx {
-  font-size: 13px;
-}
-
-
+  .social .bx {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 454px) {
   /*-----Inicio-----*/
 
   .copy {
-  font-size: 4.92px;
+    font-size: 7.64px;
+  }
+
+  .inicio h1 {
+    font-size: 26.78px;
+    height: 31.3px;
+  }
+
+  .inicio h2 {
+    font-size: 8.73px;
+  }
+
+  button {
+    padding: 3.82px 2.64px;
+    margin-top: 4.58px;
+  }
+
+  button::before {
+    width: 16.02px;
+    border-radius: 11.41px;
+  }
+
+  .button-txt {
+    font-size: 5.70px;
+    gap: 2.67px;
+  }
+
+  .sobre-title {
+    gap: 43.14px;
+    margin: 0px 43.14px;
+  }
+
+  #texto1 {
+    font-size: 7.5px;
+    font-weight: 600;
+  }
+
+  #texto2 {
+    font-size: 8.4px;
+  }
+
+  .sobre-title span {
+    font-size: 4.73px;
+  }
+
+  .line {
+    margin: 0px 43.14px;
+  }
+
+  .projetos {
+    padding: 0px 16.93px;
+    font-size: 16.93px;
+  }
+
+  .right {
+    max-width: 259.14px;
+    margin: 8.73px auto;
+  }
+
+  .left {
+    max-width: 259.14px;
+    margin: auto;
+  }
+
+  .frasedeimpacto h1 {
+    font-size: 29.52px;
+  }
+
+  .contact {
+    height: 106.07px;
+  }
+
+  .contact-title h1 {
+    font-size: 20.78px;
+    width: 191.57px;
+  }
+
+  .contact-title img {
+    width: 47.01px;
+  }
+
+  .contact-title h1:nth-child(2) {
+    margin-left: 0px;
+    height: 16.41px;
+  }
+
+  .hardskills-circle {
+    width: 47.01px;
+    height: 47.01px;
+  }
+
+  .hardskills-circle span {
+    font-size: 6.01px;
+  }
+
+  .footer-container {
+    height: auto;
+  }
+
+  .logo h2 {
+    width: 110.27px;
+    font-size: 12px;
+  }
+
+  .navbar {
+    font-size: 10px;
+  }
 }
-
-.inicio h1 {
-  font-size: 20.78px;
-  height: 25.1px;
-}
-
-.inicio h2 {
-  font-size: 8.73px;
-}
-
-button {
-  padding: 2.18px 1.64px;
-  margin-top: 3.83px;
-}
-
-button::before {
-  width: 10.95px;
-  border-radius: 10.39px;
-}
-
-.button-txt {
-  font-size: 3.83px;
-  gap: 2.18px;
-}
-
-.sobre-title {
-  gap: 43.14px;
-  margin: 0px 43.14px;
-}
-
-#texto1 {
-  font-size: 7.5px;
-  font-weight: 600;
-}
-
-#texto2 {
-  font-size: 8.4px;
-}
-
-.sobre-title span {
-  font-size: 4.73px;
-}
-
-.line {
-  margin: 0px 43.14px;
-}
-
-.projetos {
-  padding: 0px 16.93px;
-  font-size: 16.93px;
-}
-
-.right {
-  max-width: 259.14px;
-  margin: 8.73px auto;
-}
-
-.left {
-  max-width: 259.14px;
-  margin: auto;
-}
-
-.frasedeimpacto h1 {
-  font-size: 29.52px;
-}
-
-.contact {
-  height: 106.07px;
-}
-
-.contact-title h1 {
-  font-size: 20.78px;
-  width: 191.57px;
-}
-
-.contact-title img {
-  width: 47.01px;
-}
-
-.contact-title h1:nth-child(2) {
-  margin-left: 0px;
-  height: 16.41px;
-}
-
-.hardskills-circle {
-  width: 47.01px;
-  height: 47.01px;
-}
-
-.hardskills-circle span {
-  font-size: 6.01px;
-}
-
-.footer-container {
-  height: auto;
-}
-
-.logo h2 {
-  width: 121.27px;
-  font-size: 9.29px;
-}
-
-.navbar {
-  font-size: 7.1px;
-}
-
-}
-
-
-
-
 
 /*
-conferir todos
+DEIXAR A LOGO BRUNO9 ROVANI MAIS A FRENTE EM SMARTPHONES
+CODE BY ROVANI TBM
+LOGO NO FOOTER PARA CELULARES DEIXAR O DEVELOPER EMBAIXO
 */
