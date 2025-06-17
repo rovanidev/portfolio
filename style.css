@@ -29,7 +29,7 @@ html {
   overflow-x: hidden;
 }
 
-/*--------------Animações-----------------*/
+/*--------------ANIMAÇÕES JS-----------------*/
 
 .hidden {
   opacity: 0;
@@ -61,7 +61,7 @@ html {
   transform: translateY(0%);
 }
 
-/*-----------------Inicio---------------------*/
+/*-----------------INÍCIO---------------------*/
 
 .copy {
   font-family: "Poppins";
@@ -130,7 +130,7 @@ button:hover::before {
   gap: 10px;
 }
 
-/*-----------------------Sobre--------------------*/
+/*-----------------------SOBRE--------------------*/
 
 .sobre {
   min-height: 100px;
@@ -170,7 +170,7 @@ button:hover::before {
   font-size: 20px;
 }
 
-/*------------------Projetos----------------*/
+/*------------------PROJETOS----------------*/
 
 .projetos {
   padding: 0px 80px;
@@ -231,7 +231,7 @@ button:hover::before {
   width: 100%;
 }
 
-/*----------Frase de Impacto----------*/
+/*----------FRASE DE IMPACTO----------*/
 
 .frasedeimpacto {
   height: 100%;
@@ -257,7 +257,7 @@ button:hover::before {
   }
 }
 
-/*----------------------Contact---------------------*/
+/*----------------------CONTATO---------------------*/
 
 .contact {
   background-color: #1b1b1d;
@@ -350,7 +350,7 @@ button:hover::before {
   color: white;
 }
 
-/*------------------------Footer---------------------------*/
+/*------------------------FOOTER---------------------------*/
 
 .footer-container {
   display: grid;
@@ -412,14 +412,14 @@ button:hover::before {
   transform: scale(0.85);
 }
 
-/* ---------------------Estilo do fundo do loader------------------------- */
+/* --------------------- ESTILO DO FUNDO DO LOADER ------------------------- */
 #loader {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: white; /* Ou outra cor */
+  background: white; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -428,13 +428,13 @@ button:hover::before {
   transition: opacity 0.5s ease-out;
 }
 
-/* ----------------Esconder o loader quando a página estiver carregada-------------- */
+/* ---------------- ESCONDE O LOADER QUANDO A PÁGINA FOR CARREGADA -------------- */
 #loader.hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-/* ----------------------Loader do Uiverse.io ------------------*/
+/* ---------------------- LOADER ------------------*/
 .spinner {
   width: 80px;
   height: 80px;
@@ -1279,6 +1279,7 @@ button:hover::before {
 
   #texto2 {
     font-size: 10px;
+    align-items: start;
   }
 
   .sobre-title span {
@@ -1394,7 +1395,7 @@ button:hover::before {
   }
 
   #texto2 {
-    font-size: 8.4px;
+    font-size: 9px;
   }
 
   .sobre-title span {
@@ -1506,12 +1507,12 @@ button:hover::before {
   }
 
   #texto1 {
-    font-size: 7.5px;
+    font-size: 10px;
     font-weight: 600;
   }
 
   #texto2 {
-    font-size: 8.4px;
+    font-size: 9px;
   }
 
   .sobre-title span {

@@ -50,33 +50,33 @@ elements3.forEach((element3) => myObserver3.observe(element3))
 document.addEventListener("DOMContentLoaded", function () {
   const loader = document.getElementById("loader");
 
-  // Oculta o loader quando a página carrega completamente
+  
   setTimeout(() => {
     loader.classList.add("hidden");
   }, 500);
 
-  // Captura todos os links da página
+  
   document.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", function (event) {
       const href = this.getAttribute("href");
 
-      // Se o link for âncora (#) e estiver na mesma página, NÃO ativa o loader
+      
       if (href.startsWith("#")) return;
 
-      // Se o link abre em nova aba, também NÃO ativa o loader
+      
       if (this.target === "_blank") return;
 
-      event.preventDefault(); // Impede a navegação imediata
-      loader.classList.remove("hidden"); // Mostra o loader
+      event.preventDefault(); 
+      loader.classList.remove("hidden");
 
-      // Aguarda um tempo e então faz a navegação
+      
       setTimeout(() => {
         window.location.href = this.href;
       }, 1000);
     });
   });
 
-  // Caso o loader fique preso, garante que ele sempre some ao carregar a página
+ 
   window.addEventListener("pageshow", () => {
     loader.classList.add("hidden");
   });
@@ -102,7 +102,6 @@ function atualizarTextoPorTamanho() {
   const texto1 = document.getElementById("texto1");
 
   if (window.innerWidth <= 610) {
-    // Texto reduzido para telas pequenas
     if (texto2) {
       texto2.textContent = "Crescendo por meio da criação e do desenvolvimento.";
     }
@@ -110,7 +109,6 @@ function atualizarTextoPorTamanho() {
       texto1.textContent = "Aspirante a desenvolvedor Full Stack, com foco atual em Back-End.";
     }
   } else {
-    // Texto original para telas maiores
     if (texto2) {
       texto2.textContent = "Minha paixão por design, código e interação me motiva a evoluir constantemente e encontrar meu espaço no mundo do desenvolvimento.";
     }
