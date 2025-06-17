@@ -8,7 +8,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  color: #161618;
+  color: rgb(231, 231, 231);
   scroll-behavior: smooth;
   scroll-margin-top: 120px;
 }
@@ -27,7 +27,7 @@ body,
 html {
   font-family: "Poppins";
   overflow-x: hidden;
-  background-color: transparent;
+  background-color: #0f0f11;
 }
 
 /*--------------ANIMAÇÕES JS-----------------*/
@@ -176,7 +176,7 @@ button:hover::before {
 }
 
 .line {
-  border: solid 0.5px rgba(0, 0, 0, 0.575);
+  border: solid 0.5px rgba(255, 255, 255, 0.575);
   margin: 0px 200px;
 }
 
@@ -280,7 +280,7 @@ button:hover::before {
 /*----------------------CONTATO---------------------*/
 
 .contact {
-  background-color: #1b1b1d;
+  background-color: #161618;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -376,7 +376,7 @@ button:hover::before {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  background: #161618;
+  background: #1b1b1d;
   padding: 20px;
 }
 
@@ -510,33 +510,6 @@ button:hover::before {
 /*Responsividade*/
 
 @media screen and (max-width: 1570px) {
-  .copy {
-    font-size: 16px;
-  }
-
-  .inicio h1 {
-    font-size: 82px;
-    height: 98px;
-  }
-
-  .inicio h2 {
-    font-size: 33px;
-  }
-
-  button {
-    padding: 8.18px 4.91px;
-    margin-top: 16px;
-  }
-
-  button::before {
-    width: 42px;
-    border-radius: 30px;
-  }
-  .button-txt {
-    font-size: 16px;
-    gap: 8px;
-  }
-
   .sobre-title {
     gap: 164px;
     margin: 0px 164px;
@@ -548,7 +521,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 16.35px;
+    font-size: 22px;
   }
 
   .line {
@@ -611,29 +584,29 @@ button:hover::before {
 
 @media screen and (max-width: 1390px) {
   .copy {
-    font-size: 14px;
+    font-size: 18.2px;
   }
 
   .inicio h1 {
-    font-size: 72px;
-    height: 86px;
+    font-size: 93.6px;
+    height: 111.8px;
   }
 
   .inicio h2 {
-    font-size: 29px;
+    font-size: 37.7px;
   }
 
   button {
-    padding: 7.24px 4.34px;
+    padding: 9.41px 5.64px;
     margin-top: 14px;
   }
 
   button::before {
-    width: 36px;
+    width: 46.8px;
     border-radius: 30px;
   }
   .button-txt {
-    font-size: 14.16px;
+    font-size: 18.4px;
     gap: 8px;
   }
 
@@ -648,7 +621,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 14.48px;
+    font-size: 19.24pxpx;
   }
 
   .line {
@@ -711,32 +684,26 @@ button:hover::before {
 
 @media screen and (max-width: 1190px) {
   .copy {
-    font-size: 14px;
+    font-size: 15.59px;
   }
-
   .inicio h1 {
-    font-size: 61px;
-    height: 74px;
+    font-size: 80.2px;
+    height: 95.7px;
   }
-
   .inicio h2 {
-    font-size: 25px;
+    font-size: 32.3px;
   }
-
   button {
-    padding: 10px 6.9px;
+    padding: 8.06px 4.83px;
     margin-top: 12px;
   }
-
   button::before {
-    width: 42px;
-    border-radius: 30px;
+    width: 40.1px;
+    border-radius: 25.75px;
   }
-
   .button-txt {
-    font-size: 15px;
-    gap: 7px;
-    font-weight: 400;
+    font-size: 15.75px;
+    gap: 6.85px;
   }
 
   .sobre-title {
@@ -750,7 +717,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 12.4px;
+    font-size: 16.47px;
   }
 
   .line {
@@ -814,31 +781,26 @@ button:hover::before {
 
 @media screen and (max-width: 1020px) {
   .copy {
-    font-size: 17px;
+    font-size: 13.37px;
   }
-
   .inicio h1 {
-    font-size: 60px;
-    height: 70px;
+    font-size: 68.2px;
+    height: 81.4px;
   }
-
   .inicio h2 {
-    font-size: 21px;
+    font-size: 27.5px;
   }
-
   button {
-    padding: 8.57px 5.91px;
-    margin-top: 10.29px;
+    padding: 6.61px 3.96px;
+    margin-top: 10.3px;
   }
-
   button::before {
-    width: 36.03px;
-    border-radius: 25.71px;
+    width: 34.4px;
+    border-radius: 22.13px;
   }
-
   .button-txt {
-    font-size: 12.86px;
-    gap: 6px;
+    font-size: 13.61px;
+    gap: 5.87px;
   }
 
   .sobre-title {
@@ -856,7 +818,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 10.63px;
+    font-size: 14.12px;
   }
 
   .line {
@@ -920,31 +882,26 @@ button:hover::before {
 
 @media screen and (max-width: 950px) {
   .copy {
-    font-size: 16px;
+    font-size: 12.45px;
   }
-
   .inicio h1 {
-    font-size: 56px;
-    height: 65px;
+    font-size: 63.5px;
+    height: 75.8px;
   }
-
   .inicio h2 {
-    font-size: 20px;
+    font-size: 25.6px;
   }
-
   button {
-    padding: 7.98px 5.51px;
-    margin-top: 9.58px;
+    padding: 6.16px 3.69px;
+    margin-top: 9.5px;
   }
-
   button::before {
-    width: 33.53px;
-    border-radius: 23.95px;
+    width: 32.1px;
+    border-radius: 20.78px;
   }
-
   .button-txt {
-    font-size: 11.97px;
-    gap: 5.59px;
+    font-size: 12.66px;
+    gap: 5.47px;
   }
 
   .sobre-title {
@@ -962,7 +919,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 9.9px;
+    font-size: 14.12px;
   }
 
   .line {
@@ -1031,31 +988,26 @@ button:hover::before {
 
 @media screen and (max-width: 840px) {
   .copy {
-    font-size: 14.11px;
+    font-size: 11px;
   }
-
   .inicio h1 {
-    font-size: 49.47px;
-    height: 57.47px;
+    font-size: 56.6px;
+    height: 67.5px;
   }
-
   .inicio h2 {
-    font-size: 18px;
+    font-size: 22.8px;
   }
-
   button {
-    padding: 7.06px 4.88px;
-    margin-top: 8.47px;
+    padding: 5.49px 3.29px;
+    margin-top: 8.4px;
   }
-
   button::before {
-    width: 29.63px;
-    border-radius: 21.14px;
+    width: 28.5px;
+    border-radius: 18.47px;
   }
-
   .button-txt {
-    font-size: 10.53px;
-    gap: 4.94px;
+    font-size: 11.28px;
+    gap: 4.87px;
   }
 
   .sobre-title {
@@ -1073,7 +1025,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 8.75px;
+    font-size: 14.12px;
   }
 
   .line {
@@ -1146,31 +1098,26 @@ button:hover::before {
 
 @media screen and (max-width: 750px) {
   .copy {
-    font-size: 12.63px;
+    font-size: 9.83px;
   }
-
   .inicio h1 {
-    font-size: 44.21px;
-    height: 51.32px;
+    font-size: 50.6px;
+    height: 60.4px;
   }
-
   .inicio h2 {
-    font-size: 16px;
+    font-size: 20.4px;
   }
-
   button {
-    padding: 6.3px 4.36px;
-    margin-top: 7.57px;
+    padding: 4.91px 2.94px;
+    margin-top: 7.5px;
   }
-
   button::before {
-    width: 26.45px;
-    border-radius: 18.86px;
+    width: 25.5px;
+    border-radius: 16.47px;
   }
-
   .button-txt {
-    font-size: 9.39px;
-    gap: 4.41px;
+    font-size: 10.08px;
+    gap: 4.31px;
   }
 
   .sobre-title {
@@ -1188,7 +1135,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 7.81px;
+    font-size: 14.12px;
   }
 
   .line {
@@ -1261,31 +1208,26 @@ button:hover::before {
 
 @media screen and (max-width: 610px) {
   .copy {
-    font-size: 10.27px;
+    font-size: 8px;
   }
-
   .inicio h1 {
-    font-size: 36px;
-    height: 41.85px;
+    font-size: 41.1px;
+    height: 49.1px;
   }
-
   .inicio h2 {
-    font-size: 13.01px;
+    font-size: 16.6px;
   }
-
   button {
-    padding: 5.13px 3.55px;
-    margin-top: 6.14px;
+    padding: 3.99px 2.39px;
+    margin-top: 6.1px;
   }
-
   button::before {
-    width: 21.52px;
-    border-radius: 15.34px;
+    width: 20.7px;
+    border-radius: 13.37px;
   }
-
   .button-txt {
-    font-size: 7.65px;
-    gap: 3.59px;
+    font-size: 8.17px;
+    gap: 3.5px;
   }
   .sobre-title {
     gap: 64.25px;
@@ -1303,7 +1245,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 6.35px;
+    font-size: 12.7px;
   }
 
   .line {
@@ -1378,31 +1320,26 @@ button:hover::before {
   /*-----Inicio-----*/
 
   .copy {
-    font-size: 8.6px;
+    font-size: 6.67px;
   }
-
   .inicio h1 {
-    font-size: 30.07px;
-    height: 35.18px;
+    font-size: 34.4px;
+    height: 41.1px;
   }
-
   .inicio h2 {
-    font-size: 10.87px;
+    font-size: 13.9px;
   }
-
   button {
-    padding: 4.29px 2.97px;
-    margin-top: 5.13px;
+    padding: 3.34px 2px;
+    margin-top: 5.1px;
   }
-
   button::before {
-    width: 17.99px;
-    border-radius: 12.82px;
+    width: 17.3px;
+    border-radius: 11.17px;
   }
-
   .button-txt {
-    font-size: 6.4px;
-    gap: 3px;
+    font-size: 6.86px;
+    gap: 2.93px;
   }
   .sobre-title {
     gap: 53.69px;
@@ -1419,7 +1356,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 5.31px;
+    font-size: 10.62px;
   }
 
   .line {
@@ -1494,31 +1431,26 @@ button:hover::before {
   /*-----Inicio-----*/
 
   .copy {
-    font-size: 7.64px;
+    font-size: 5.93px;
   }
-
   .inicio h1 {
-    font-size: 26.78px;
-    height: 31.3px;
+    font-size: 30.7px;
+    height: 36.8px;
   }
-
   .inicio h2 {
-    font-size: 8.73px;
+    font-size: 12.4px;
   }
-
   button {
-    padding: 3.82px 2.64px;
-    margin-top: 4.58px;
+    padding: 2.99px 1.79px;
+    margin-top: 4.5px;
   }
-
   button::before {
-    width: 16.02px;
-    border-radius: 11.41px;
+    width: 15.4px;
+    border-radius: 9.95px;
   }
-
   .button-txt {
-    font-size: 5.7px;
-    gap: 2.67px;
+    font-size: 6.12px;
+    gap: 2.62px;
   }
 
   .sobre-title {
@@ -1536,7 +1468,7 @@ button:hover::before {
   }
 
   .sobre-title span {
-    font-size: 4.73px;
+    font-size: 9.4px;
   }
 
   .line {
