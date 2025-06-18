@@ -294,7 +294,7 @@ button:hover::before {
 
 @keyframes carrosel {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-120%);
   }
   50% {
     transform: translateX(0);
@@ -1272,7 +1272,6 @@ button:hover::before {
   }
 
   .brasil {
-    width: 100px;
     height: 80px;
   }
 
@@ -1292,7 +1291,7 @@ button:hover::before {
   }
 
   .brasil-txt {
-    font-size: 15px;
+    font-size: 13px;
     width: 100px;
     white-space: nowrap;
   }
@@ -1511,7 +1510,7 @@ button:hover::before {
   /*-----Inicio-----*/
 
   .copy {
-    font-size: 17px;
+    font-size: 15px;
   }
   .inicio h1 {
     font-size: 30.7px;

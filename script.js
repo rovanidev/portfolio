@@ -86,23 +86,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function UrlDelay(url) {
   if (window.innerWidth <= 1020) {
-    sessionStorage.setItem("refreshOnReturn", "true");
     setTimeout(() => {
       window.location.href = url;
-    }, 300);
+    }, 300); // tempo de delay em milissegundos
   } else {
-    sessionStorage.setItem("refreshOnReturn", "true");
     window.location.href = url;
-  }
+  } 
 }
 
-// Ao voltar, verifica se deve recarregar
-window.addEventListener("pageshow", function () {
-  if (sessionStorage.getItem("refreshOnReturn")) {
-    sessionStorage.removeItem("refreshOnReturn");
-    location.reload();
+window.addEventListener('pageshow', function (event) {
+  // Verifica se foi restaurada do cache (navegador "voltou")
+  if (event.persisted) {
+    // Aqui você reseta tudo o que precisa
+    resetarAnimacoes();
   }
 });
+
+function resetarAnimacoes() {
+  // Exemplo genérico — adapte conforme suas animações
+  const elementos = document.querySelectorAll('.animado');
+  elementos.forEach(el => {
+    el.classList.remove('ativo', 'finalizado'); // classes que mudam visual
+    el.style.transform = '';
+    el.style.opacity = '';
+    // Ou o que for necessário para "resetar"
+  });
+}
+
+
+
 
 
 //tamanho texto
