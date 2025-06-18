@@ -808,7 +808,7 @@ button:hover::before {
 
 @media screen and (max-width: 1020px) {
   .copy {
-    font-size: 13.37px;
+    font-size: 17px;
   }
   .inicio h1 {
     font-size: 68.2px;
@@ -909,7 +909,7 @@ button:hover::before {
 
 @media screen and (max-width: 950px) {
   .copy {
-    font-size: 12.45px;
+   font-size: 17px;
   }
   .inicio h1 {
     font-size: 63.5px;
@@ -1015,7 +1015,7 @@ button:hover::before {
 
 @media screen and (max-width: 840px) {
   .copy {
-    font-size: 11px;
+    font-size: 17px;
   }
   .inicio h1 {
     font-size: 56.6px;
@@ -1126,7 +1126,7 @@ button:hover::before {
 
 @media screen and (max-width: 750px) {
   .copy {
-    font-size: 9.83px;
+    font-size: 17px;
   }
   .inicio h1 {
     font-size: 50.6px;
@@ -1261,7 +1261,7 @@ button:hover::before {
 
 @media screen and (max-width: 610px) {
   .copy {
-    font-size: 8px;
+    font-size: 17px;
   }
   .inicio h1 {
     font-size: 41.1px;
@@ -1271,7 +1271,7 @@ button:hover::before {
     font-size: 16.6px;
   }
 
-   .brasil {
+  .brasil {
     width: 100px;
     height: 80px;
   }
@@ -1296,7 +1296,6 @@ button:hover::before {
     width: 100px;
     white-space: nowrap;
   }
-
 
   button {
     padding: 3.99px 2.39px;
@@ -1401,7 +1400,7 @@ button:hover::before {
   /*-----Inicio-----*/
 
   .copy {
-    font-size: 6.67px;
+    font-size: 17px;
   }
   .inicio h1 {
     font-size: 34.4px;
@@ -1428,12 +1427,12 @@ button:hover::before {
   }
 
   #texto1 {
-    font-size: 9.2px;
+    font-size: 10.5px;
     font-weight: 600;
   }
 
   #texto2 {
-    font-size: 9px;
+    font-size: 10px;
   }
 
   .sobre-title span {
@@ -1512,7 +1511,7 @@ button:hover::before {
   /*-----Inicio-----*/
 
   .copy {
-    font-size: 5.93px;
+    font-size: 17px;
   }
   .inicio h1 {
     font-size: 30.7px;
@@ -1616,10 +1615,4 @@ button:hover::before {
   }
 }
 
-/*
-DEIXAR A LOGO BRUNO9 ROVANI MAIS A FRENTE EM SMARTPHONES
-CODE BY ROVANI TBM
-LOGO NO FOOTER PARA CELULARES DEIXAR O DEVELOPER EMBAIXO
-*/
 
-/* background-color: #0f0f11; preto */

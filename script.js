@@ -86,13 +86,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function UrlDelay(url) {
   if (window.innerWidth <= 1020) {
+    sessionStorage.setItem("refreshOnReturn", "true");
     setTimeout(() => {
       window.location.href = url;
-    }, 300); // tempo de delay em milissegundos
+    }, 300);
   } else {
+    sessionStorage.setItem("refreshOnReturn", "true");
     window.location.href = url;
   }
 }
+
+// Ao voltar, verifica se deve recarregar
+window.addEventListener("pageshow", function () {
+  if (sessionStorage.getItem("refreshOnReturn")) {
+    sessionStorage.removeItem("refreshOnReturn");
+    location.reload();
+  }
+});
 
 
 //tamanho texto
