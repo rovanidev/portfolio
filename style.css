@@ -98,6 +98,8 @@ header {
 
 .brasil > div {
   background-image: url("img/globo.gif");
+  background-size: 80px 80px;
+  background-position: center center;
   width: 80px;
   height: 80px;
   position: absolute;
@@ -909,7 +911,7 @@ button:hover::before {
 
 @media screen and (max-width: 950px) {
   .copy {
-   font-size: 17px;
+    font-size: 17px;
   }
   .inicio h1 {
     font-size: 63.5px;
@@ -1613,5 +1615,3 @@ button:hover::before {
     font-size: 10px;
   }
 }
-
-
