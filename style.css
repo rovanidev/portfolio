@@ -28,6 +28,7 @@ html {
   font-family: "Poppins";
   overflow-x: hidden;
   background-color: #0f0f11;
+  /*background-color: #999d9e;*/
 }
 
 /*--------------ANIMAÇÕES JS-----------------*/
@@ -88,18 +89,18 @@ header {
   padding-left: 100px;
   display: flex;
   align-items: center;
+  display: none;
 }
 
 .brasil:hover,
 .brasil-txt:hover {
   width: 200px;
-  cursor: pointer;
 }
 
 .brasil > div {
   background-image: url("img/globo.gif");
   background-size: 80px 80px;
-  background-position: center center;
+  background-position: center;
   width: 80px;
   height: 80px;
   position: absolute;
@@ -1140,7 +1141,7 @@ button:hover::before {
 
   .brasil {
     width: 100px;
-    height: 90px;
+    height: 100px;
   }
 
   .brasil:hover,
@@ -1150,9 +1151,9 @@ button:hover::before {
   }
 
   .brasil > div {
-    background-image: url("img/globo70.gif");
-    width: 70px;
-    height: 70px;
+    background-image: url("img/globo.gif");
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
   }
 
@@ -1274,17 +1275,18 @@ button:hover::before {
   }
 
   .brasil {
-    height: 80px;
+    display: none;
   }
-
+  
+  /*
   .brasil:hover,
   .brasil-txt:hover {
     width: 200px;
     cursor: pointer;
   }
-
+ 
   .brasil > div {
-    background-image: url("img/globo65.gif");
+    background-image: url("img/globo.gif");
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -1296,7 +1298,7 @@ button:hover::before {
     font-size: 13px;
     width: 100px;
     white-space: nowrap;
-  }
+  }*/
 
   button {
     padding: 3.99px 2.39px;
@@ -1615,3 +1617,14 @@ button:hover::before {
     font-size: 10px;
   }
 }
+
+/*
+Diminuir a largura da fita do globo em dispositivos menores.
+Encontrar um bom gif de globo para substituir.
+
+
+deixar p bruno rovani mais alto para dispositivos moveis 
+
+se inspirar no portfolio do Dennis Snellenberg
+
+*/
