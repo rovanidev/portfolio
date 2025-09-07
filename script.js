@@ -134,16 +134,16 @@ function atualizarTextoPorTamanho() {
       texto2.textContent = "Crescendo por meio da criação e do desenvolvimento.";
     }
     if (texto1) {
-      texto1.textContent = "Aspirante a desenvolvedor Full Stack, com foco atual em Back-End.";
-    }
+      texto1.textContent = "Dev Back-end em formação, solucionando problemas reais" 
   } else {
     if (texto2) {
-      texto2.textContent = "Minha paixão por design, código e interação me motiva a evoluir constantemente e encontrar meu espaço no mundo do desenvolvimento.";
+      texto2.textContent = "Minha paixão por resolver problemas com lógica e código me motiva a evoluir constantemente e consolidar meu espaço no desenvolvimento back-end"
     }
     if (texto1) {
-      texto1.textContent = "Aspirante a desenvolvedor Full Stack, com foco atual em back-end e sempre buscando evoluir para criar soluções completas.";
+      texto1.textContent = "Em formação como desenvolvedor back-end, com foco em crescimento técnico e criação de soluções completas que gerem valor real.";
     }
   }
+}
 }
 
 window.addEventListener("DOMContentLoaded", atualizarTextoPorTamanho);
